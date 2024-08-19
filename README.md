@@ -27,6 +27,8 @@ RGB Control is a simple C++ desktop application built using Qt that allows users
 
 1. **Build the Binary**:
    ```bash
+    git clone https://github.com/valteralmeida12/RGBControl.git
+    cd RGBControl
     mkdir build
     cmake ..
     make -j
@@ -73,10 +75,3 @@ systemctl disable brltty.service
 
 - **Qt**: You need the Qt framework to build and run the application.
 - **Arduino**: Ensure you have the necessary Arduino setup to receive and handle RGB control signals.
-
-### Building from Source
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/RGBControl.git
-   cd RGBControl
