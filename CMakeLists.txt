@@ -13,14 +13,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets SerialPort LinguistTools)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets SerialPort LinguistTools)
 
-set(TS_FILES RGBControl_pt_PT.ts)
-
 set(PROJECT_SOURCES
         main.cpp
         rgbcontrol.cpp
         rgbcontrol.h
         rgbcontrol.ui
-        ${TS_FILES}
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
